@@ -9,14 +9,13 @@ package abcbolinhas;
  *
  * @author Hiago
  */
-public class AbcBolinhas {
+public class Imposto {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public Imposto() {
     }
- 
-   }
 
+    public double calcula(Orcamento orcamento) {
+        System.out.println("teste");
+        return orcamento.getValor() * 0.1;
+    }
+}

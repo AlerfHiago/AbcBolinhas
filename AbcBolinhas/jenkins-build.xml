@@ -9,8 +9,8 @@
 <target name="compile">
 <mkdir dir="target/classes/"/>
 <mkdir dir="target/classes-test/"/>
-<javac destdir="target/classes/" srcdir="AbcBolinhas/src/" debug="true" encoding="UTF-8" includeantruntime="false" />
-<javac destdir="target/classes-test/" srcdir="AbcBolinhas/test/" classpathref="tests.classpath" debug="true" encoding="UTF-8" includeantruntime="false" />
+<javac destdir="target/classes/" srcdir="src/" debug="true" encoding="UTF-8" includeantruntime="false" />
+<javac destdir="target/classes-test/" srcdir="test/" classpathref="tests.classpath" debug="true" encoding="UTF-8" includeantruntime="false" />
 </target>
 
 <target name="test" depends="compile">
